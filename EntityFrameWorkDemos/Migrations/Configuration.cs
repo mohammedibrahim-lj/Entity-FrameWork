@@ -10,7 +10,6 @@ namespace EntityFrameWorkDemos.Migrations
         public Configuration()
         {
             AutomaticMigrationsEnabled = true;
-            ContextKey = "EntityFrameWorkDemos.DBCreate";
         }
 
         protected override void Seed(EntityFrameWorkDemos.DBCreate context)
